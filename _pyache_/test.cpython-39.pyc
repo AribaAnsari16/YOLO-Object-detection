@@ -1,1 +1,140 @@
-
+a
+    €&5fC  ã                   @   s  d dl Z d dlZd dlZd dlmZ d dlmZ d dl Zd dl	Z	d dl
+Z
+d dl
+m
+Z
+ d dlm
+Z
+ d dlmZ d d lmZmZmZmZmZmZmZmZmZmZmZmZmZ d dlmZm Z  d d	l!m"Z"m#Z#m$Z$ d d
+l%m&Z&m'Z'm(Z( dd
+dd
+dddddddedƒddddddddddfdd„Z)e*dkre j+ddZ,e,j-dde.ddd e,j-de.ddd e,j-d e/d
+d!d e,j-d"e/dd#d e,j-d$e0d
+d%d e,j-d&e0d'd(d e,j-d)d*d+d, e,j-d-dd.d, e,j-d/d0d1d2 e,j-d3d0d4d2 e,j-d5d0d6d2 e,j-d7d0d8d2 e,j-d9d0d:d2 e,j-d;d0d<d2 e,j-d=d0d>d2 e,j-d?d@dAd, e,j-dBdCdAd, e,j-dDd0dEd2 e,j-dFd0dGd2 e,j-dHd0dId2 e, 1¡ Z2e2 j3e2j4 5dJ¡O  _3ee2j4ƒe2_4e6e2ƒ e2j7dKv re)e2j4e2j8e2j9e2j:e2j;e2j<e2j3e2j=e2j>e2j?e2j@e2jAB e2jAe2jBe2jC e2jDdL ne2j7dMkrJe2j8D ](ZEe)e2j4eEe2j9e2j:dNdOdde2jDdP	 qnÎe2j7dQkreFeGdRdSdTƒƒZHe2j8D ]–ZEdUee2j4ƒjI› dVeeEƒjI› dWZJg ZKeHD ]VZLe6dXeJ› dYeL› dZƒ e)e2j4eEe2j9eLe2j;e2j<e2j3de2jDd[	\ZMZNZOeK PeMeO ¡ q˜ejQeJeKd\d] qle Rd^¡ e$eHd_ dS )`é    N)ÚPath)ÚThread)Útqdm)Úattempt_load)Úcreate_dataloader)
+Úcoco80_to_coco91_classÚ
+check_datasetÚ
+check_fileÚcheck_img_sizeÚcheck_requirementsÚ box_iouÚnon_max_suppressionÚscale_coordsÚ	xyxy2xywhÚ	xywh2xyxyÚ
+set_loggingÚincrement_pathÚcolorstr)Úap_per_classÚConfusionMatrix)Ú
+plot_imagesÚoutput_to_targetÚplot_study_txt)Ú
+select_deviceÚtime_synchronizedÚ
+TracedModelé    i€  gü©ñÒMbP?g333333ã?FÚ Tc           j   
+      s
+  |
+d u}|rt |
+ ¡ ƒj}nˆtƒ  ttj|d}tt ttjƒtj	 tj
+dƒ}|
+rZ|d n|j
+ddd t||d}
+t
+t|
+j 
+¡ ƒd ƒ}t||d}|r¤t|
+||ƒ}
+|jd	ko°|}|r¾|
+ ¡  |
+ ¡  t| tƒr|  d
+¡}t| ƒ }tj|tjd
+} W d   ƒ n1 s0    Y  t| ƒ | r(dn
+t| d
+ ƒ}t ddd¡ |¡}|  ¡ }d}ˆrnˆj!rnt"ˆj#dƒ}|sè|jd	kr¨|
+t $dd||¡ |¡ %t |
+ ¡ ƒ¡ƒ tj&dv rºtj&nd} t'| |  |||tddt(| › dƒdd }
+|röt)dƒ d‰t*|d}!dd„ t+t,|
+dƒr|
+j-n|
+j.j-ƒD ƒ‰ t/ƒ }"dd }#d\	}$}%}&}'}(})}*}+},tj$d|d }-g g g g g f\}.}/}0}1}2t+t0|
+|#d!ƒD ]¨\}3\}4‰}5}6|4j|dd"}4|r´|4 ¡ n|4 1¡ }4|4d# }4ˆ |¡‰|4j2\}7}8}9}:t 3¡ Ô t4ƒ };|
+|4|d$\}<}=|+t4ƒ |; 7 }+|r4|-|d%d&„ |=D ƒˆƒd d d… 7 }-ˆd d …d'd …f  t 5|:|9|:|9g¡ |¡9  < |r€‡fd(d&„t6|7ƒD ƒng }>t4ƒ };t7|<|||>dd)}<|,t4ƒ |; 7 },W d   ƒ n1 sÀ0    Y  t+|<ƒD ]ì\}?}@ˆˆd d …df |?kdd …f }At8|Aƒ}B|Br|Ad d …df  9¡ ng }Ct|5|? ƒ}Dˆd7 ‰t8|@ƒdkrv|BrÒ|/ :tj$d|tj;d*t 5¡ t 5¡ |Cf¡ qÒ|@ <¡ }Et=|4|? j2dd … |Ed d …d d+…f |6|? d |6|? d ƒ |
+rt >|6|? d ¡g d,¢ }F|E 9¡ D ]¬^ }G}H}It?t >|G¡ @dd+¡ƒ|F  @d-¡ 9¡ }J|r(|Ig|J¢|H‘R n
+|Ig|J¢R }Kt|d |DjAd.  d/ƒ.}| Bd0t8|Kƒ  C¡ |K d1 ¡ W d   ƒ n1 s‚0    Y  qât8|2ƒ|k rþˆjDdkrþˆjDˆjE dkrþ‡ fd2d&„|@ 9¡ D ƒ}Ld3|Lˆ d4œi}M|2 :ˆj!jF|4|? |M|Dj	d5¡ ˆrˆjGrˆ H|E|Dˆ ¡nd  |rì|DjA I¡ r:t|DjAƒn|DjA}Nt?|Ed d …d d+…f ƒ}O|Od d …d d'…f  |Od d …d'd …f d' 8  < tJ|@ 9¡ |O 9¡ ƒD ]P\}$}P|. :|N|r¾|"t|$d6 ƒ n
+t|$d6 ƒd7d&„ |PD ƒtK|$d+ d6ƒd8œ¡ qštj$|@j2d |tj;|d9}Q|Brˆg }R|Ad d …df }StL|Ad d …dd6…f ƒ}Tt=|4|? j2dd … |T|6|? d |6|? d ƒ | r’|! M|Et N|Ad d …dd…f |Tfd¡¡ t O|S¡D ]ê}I|I|SkjPd:d; @d-¡}U|I|@d d …d6f kjPd:d; @d-¡}V|Vj2d  rœtQ|E|Vd d+…f |T|U ƒ 
+d¡\}W}XtRƒ }Y|W|d kjPd:d;D ]`}Z|U|X|Z  }[|[ S¡ |Yvr"|Y T|[ S¡ ¡ |R :|[¡ |W|Z |k|Q|V|Z < t8|Rƒ|Bkr"  qœq" qœ|/ :|Q U¡ |@d d …d+f  U¡ |@d d …d6f  U¡ |Cf¡ qÒ|r†|3dk r†|d<|3› d= }tVtW|4ˆ|5|ˆ fdd> X¡  |d<|3› d? }tVtW|4tY|<ƒ|5|ˆ fdd> X¡  q†d@d&„ tJ|/Ž D ƒ}/t8|/ƒ	rÖ|/d  Z¡ 	rÖt[|/|||ˆ dAœŽ\}$}%}0}&}1|0d d …df |0 \d¡ }\}0|$ \¡ |% \¡ |\ \¡ |0 \¡ f\}'}(})}*t]j^|/d  _t]j`¡|dB}]n
+t $d¡}]dC}^t)|^dDˆ|] a¡ |'|(|)|*f  ƒ |	
+s|dEk 
+rr|
+sr|dk
+rrt8|/ƒ
+rrt+|1ƒD ]<\}X}_t)|^ˆ |_ ˆ|]|_ |$|X |%|X |\|X |0|X f  ƒ 
+q4tb‡fdFdG„|+|,|+|, fD ƒƒ|||f };|
+s®t)dH|; ƒ |
+r|!jc|tdˆ  e¡ ƒdI ˆ
+rˆj!
+r‡fdJd&„tf| gdK¡ƒD ƒ}`ˆ hdL|`i¡ |2
+rˆ hdM|2i¡ |rbt8|.ƒrb|d u
+rNtt|tdƒ
+rF|d n|ƒjAndN}adO}bt||a› dP ƒ}ct)dQ|c ƒ t|cdRƒ}ti j|.|¡ W d   ƒ n1 
+s¢0    Y  z€ddSlkml}d ddTlmmn}e |d|bƒ}f|f o|c¡}@|e|f|@dUƒ}g|r dVd&„ |
+jpjqD ƒ|gjr_s|g t¡  |g u¡  |g v¡  |gjwd d'… \}*})W n4 txy` }h zt)dW|h› ƒ W Y d }h~hn
+d }h~h0 0 |
+ 1¡  |s®|
+r˜d1t8td| gdX¡ƒƒ› dY|d › ndN}#t)dZ|› |#› ƒ t] $|¡|* }it+|1ƒD ]\}X}_|0|X |i|_< qÄ|'|(|)|*g|- U¡ t8|
+ƒ  9¡ ¢R |i|;fS )[N)Ú
+batch_size)Úexist_okÚlabelsT)Ú parentsr   )Úmap_locationr   )ÚsÚcpuú	coco.yaml)ÚLoaderé   Úncg      à?gffffffî?é
+   r   éd   é   ©ÚtrainÚvalÚtestr.   z: )ÚpadÚrectÚprefixz Testing with YOLOv5 AP metric...)r(   c                 S   s   i | ]\}}||“qS © r3   )Ú.0ÚkÚvr3   r3   ú+C:\Users\amn_o\yolov7\yolov7-custom\test.pyÚ
+<dictcomp>b   ó    ztest.<locals>.<dictcomp>Únamesz%20s%12s%12s%12s%12s%12s%12s) ZClassZImagesZLabelsÚPÚRzmAP@.5z
+mAP@.5:.95)	ç        r=   r=   r=   r=   r=   r=   r=   r=   )Údevice)Údesc)Únon_blockingg     ào@)Ú augmentc                 S   s   g | ]}|  ¡ ‘qS r3   )Úfloat©r4   Úxr3   r3   r7   Ú
+<listcomp>w   r9   ztest.<locals>.<listcomp>é   c                    s,   g | ]$}ˆ ˆ d d …df |kdd …f ‘qS )Nr   r'   r3   )r4   Úi)Ú targetsr3   r7   rE   {   r9   )Ú
+conf_thresÚ	iou_thresr    Z
+multi_label)Údtypeé   )r'   r   r'   r   éÿÿÿÿú.txtÚaz%g Ú
+c                    sR   g | ]J^ }}}|d  |d |d |d dœt |ƒdˆ | |f d|id dœ‘qS )	r   r'   rF   r+   )ZminXZminYZmaxXZmaxYz %s %.3fZ
+class_scoreZpixel)ÚpositionZclass_idZ
+box_captionÚscoresÚdomain)Úint)r4   ÚxyxyÚconfÚcls)r:   r3   r7   rE      s   
+üüÚ
+predictions)Úbox_dataZclass_labels)ÚboxesÚ captioné   c                 S   s   g | ]}t |d ƒ‘qS )r+   )ÚroundrC   r3   r3   r7   rE   ¯   r9   )Úimage_idZ
+category_idÚbboxÚscore)rK   r>   F)Úas_tupleZ
+test_batchz
+_labels.jpg)ÚtargetÚargsÚdaemonz	_pred.jpgc                 S   s   g | ]}t  |d ¡‘qS )r   )ÚnpÚ
+concatenaterC   r3   r3   r7   rE   Þ   r9   )ÚplotÚ	v5_metricÚsave_dirr:   )Ú	minlengthz$%20s%12i%12i%12.3g%12.3g%12.3g%12.3gÚallé2   c                 3   s   | ]}|ˆ  d  V  qdS )g     @@Nr3   rC   )Úseenr3   r7   Ú	<genexpr>ñ   r9   ztest.<locals>.<genexpr>zMSpeed: %.1f/%.1f/%.1f ms inference/NMS/total per %gx%g image at batch-size %g)ri   r:   c                    s"   g | ]}ˆ j jt|ƒ|jd ‘qS ))r[   )ÚwandbÚImageÚstrÚname)r4   Úf)Úwandb_loggerr3   r7   rE   ù   r9   z	test*.jpgZ
+ValidationzBounding Box Debugger/Imagesr   z)./coco/annotations/instances_val2017.jsonz_predictions.jsonz+
+Evaluating pycocotools mAP... saving %s...Úw)ÚCOCO)ÚCOCOevalr_   c                 S   s   g | ]}t t|ƒjƒ‘qS r3   )rT   r   ÚstemrC   r3   r3   r7   rE     r9   zpycocotools unable to run: zlabels/*.txtz labels saved to zResults saved to )yÚnextÚ
+parametersr>   r   r   Úoptr   r   Ú projectrr   r   Úmkdirr   ÚmaxrT   Ústrider
+   r   ÚtypeÚhalfÚevalÚ
+isinstancerq   ÚendswithÚopenÚyamlÚloadÚ
+SafeLoaderr   ÚtorchÚlinspaceÚtoÚnumelro   ÚminÚlog_imgsÚzerosÚ type_asÚtaskr   r   Úprintr   Ú	enumerateÚ hasattrr:   Úmoduler    r   rB   ÚshapeÚ no_gradr   ÚTensorÚranger
+   ÚlenÚtolistÚappendÚboolÚcloner   Útensorr   Úviewrx   ÚwriteÚrstripÚ
+current_epochZ
+bbox_intervalrp   Ú	wandb_runZlog_training_progressÚ	isnumericÚzipr]   r   Z
+process_batchÚcatÚuniqueÚ nonzeror   ÚsetÚitemÚaddr$   r   r   Ústartr   Úanyr   Úmeanre   ÚbincountÚastypeÚint64ÚsumÚtuplerg   ÚlistÚvaluesÚsortedÚglobÚlogÚjsonÚdumpZpycocotools.cocorv   Zpycocotools.cocoevalrw   Z loadResÚ datasetZ	img_filesÚparamsZimgIdsZevaluateÚ
+accumulateÚ	summarizeÚstatsÚ	Exception)jÚdataÚ weightsr   ÚimgszrI   rJ   Ú	save_jsonÚ
+single_clsrA   Ú verboseÚmodelÚ
+dataloaderri   Úsave_txtÚ
+save_hybridÚ	save_confÚplotsrt   Úcompute_lossZhalf_precisionÚtraceÚ is_cocorh   Útrainingr>   Úgsr   rs   r(   ZiouvZniourŽ   r‘   Zconfusion_matrixZ
+coco91classr#   ÚpÚrÚf1ÚmpÚmrZmap50ÚmapÚt0Út1ÚlossZjdictrÀ   ZapZap_classZwandb_imagesZ batch_iÚimgÚpathsÚshapesÚnbÚ_ÚheightÚwidthÚtÚoutZ	train_outÚlbÚsiÚpredr    ÚnlZtclsÚpathZprednÚgnrU   rV   rW   ZxywhÚlinerY   rZ   r^   ÚboxÚbZ correctZdetectedZ
+tcls_tensorZtboxÚtiÚpiZiousrG   Zdetected_setÚjÚdZap50ÚntZpfÚcZ
+val_batchesru   Z	anno_jsonZ	pred_jsonrv   rw   Úannor‚   ÚeÚmapsr3   )r:   rm   rH   rt   r7   r/      sf   
+
+0(ÿÿ
+("
+
+$0 . (<$"B
+ü 0 ý,("$
+:$$
+*6*,,
+$,r/   Ú__main__z test.py)Úprogz	--weightsú+z	yolov7.ptzmodel.pt path(s))Únargsr€   Ú defaultÚhelpz--datazdata/coco.yamlz
+*.data path)r€   rû   rü   z--batch-sizezsize of each image batchz
+--img-sizezinference size (pixels)z--conf-threszobject confidence thresholdz
+--iou-thresgÍÌÌÌÌÌä?zIOU threshold for NMSz--taskr.   z train, val, test, speed or study)rû   rü   z--devicez%cuda device, i.e. 0 or 0,1,2,3 or cpuz--single-clsÚ
+store_trueztreat as single-class dataset)Úactionrü   z	--augmentzaugmented inferencez	--verbosezreport mAP by classz
+--save-txtzsave results to *.txtz
+--save-hybridz-save label+prediction hybrid results to *.txtz
+--save-confz%save confidences in --save-txt labelsz
+--save-jsonz+save a cocoapi-compatible JSON results filez	--projectz	runs/testzsave to project/namez--nameÚexpz
+--exist-okz*existing project/name ok, do not incrementz
+--no-tracezdon`t trace modelz
+--v5-metricz.assume maximum recall as 1.0 in AP calculationr%   r,   )rÊ   rË   rÌ   rÏ   rh   Zspeedg      Ð?gÍÌÌÌÌÌÜ?)rÅ   rÍ   rh   Zstudyé   i€  é€   Zstudy_rà   rN   z	
+Running z  point z...)rÍ   rh   z%10.4g)Úfmtzzip -r study.zip study_*.txt)rD   )SÚargparserº   ÚosÚ pathlibr   Ú	threadingr   Únumpyre   r‰   r†   r   Úmodels.experimentalr   Úutils.datasetsr   Ú
+utils.generalr    r   r	   r
+   r
+   r   r
+   r   r   r   r   r   r   Z
+utils.metricsr   r   Ú
+utils.plotsr   r   r   Úutils.torch_utilsr   r   r   r/   Ú__name__ÚArgumentParserÚparserÚadd_argumentrq   rT   rB   Ú
+parse_argsr{   rÅ   rÂ   r„   r’   r‘   rÃ   r   Úimg_sizerI   rJ   rÆ   rA   rÇ   rÊ   rË   rÌ   Zno_tracerh   ru   rµ   r™   rD   rx   rs   ÚyrG   rÔ   rà   rã   rœ   Ú savetxtÚsystemr3   r3   r3   r7   Ú<module>   sÆ   <ê
+  
+
+ò
+
+(
+ ÿ
+
