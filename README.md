@@ -28,7 +28,23 @@ Install siblime text and write the following code and save this file as downoadi
 3. Download the file from https://github.com/WongKinYiu/yolov7 into target folder and extract it
 4. You will get a file called requiremwnts.txt. Run this command in anaconda: pip install –r requirements.txt . This will download all your needed libraries.
 5. Go to yolov7_custom folder, Make a copy of coco.yaml file and name it custom_data.yaml . Make changes in this file according to your data.Also change the nc in yolov7custom.yaml file to the number of classes in your data.
-   
+# Training :
+In anaconda, run the command :python train.py --workers 1 --device cpu --batch-size 1 --epochs 50 --img 128 128 --data data/customdata.yaml --hyp data/hyp.scratch.custom.yaml --cfg cfg/training/yolov7custom.yaml --name yolov7_custom --weights yolov7.pt .You can change the parameters accordingly. I have used cpu , but you can also run this using gpu .
+This will give you 2 files called best.pt and last.pt . Chane the name of best.pt to yolov7-custom.pt and copy it to your yolov7 folder.
+# To check your model :
+Download any image of cat and dog from google and name it 1.jpeg and 2.jpeg .Run the command :python detect.py --weights yolov7-custom.pt --conf 0.4 --img-size 12
+8 --source 1.jpeg --view-img --no-trace .
+![image](https://github.com/AribaAnsari16/YOLO-Object-detection/assets/168963042/de0fe75d-6ec4-4b54-962c-f648a29a64dc)
+
+This will save the result in detect folder in runs (in yolov7-custom ) 
+
+![1](https://github.com/AribaAnsari16/YOLO-Object-detection/assets/168963042/8d10dc71-bc30-4934-9bfb-e65a9dc4b409)
+![2](https://github.com/AribaAnsari16/YOLO-Object-detection/assets/168963042/c7d900fb-5112-4603-a898-50129713768e)
+
+We can see that the model is accurate.
+
+
+
 
 
 
