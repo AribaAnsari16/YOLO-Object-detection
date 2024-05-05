@@ -23,7 +23,13 @@ Install siblime text and write the following code and save this file as downoadi
  
  # Folder structure and installing libraries :
  1. In yolov7, create a folder called val i.e validation and cut and paste 20% of the images and labels downloaded ( 7 for cat and 7 for dog).![image](https://github.com/AribaAnsari16/YOLO-Object-detection/assets/168963042/e38c6d5f-874e-4dfd-8ee8-c61ea6a661b2)
- Make another folder called train and paste the remaining images and labels here.
+2. Make another folder called train and paste the remaining images and labels here.
 ![image](https://github.com/AribaAnsari16/YOLO-Object-detection/assets/168963042/01bb8da9-d92d-4277-a6ac-c7ac17ced813)
+3. Download the file from https://github.com/WongKinYiu/yolov7 into target folder and extract it
+4. You will get a file called requiremwnts.txt. Run this command in anaconda: pip install –r requirements.txt . This will download all your needed libraries.
+5. Go to yolov7_custom folder, Make a copy of coco.yaml file and name it custom_data.yaml . Make changes in this file according to your data.Also change the nc in yolov7custom.yaml file to the number of classes in your data.
+   
+
+
 
  
